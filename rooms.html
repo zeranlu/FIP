@@ -8,51 +8,45 @@
     <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
     <link href="css/grid.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>Welcome to The Couples Resort</title>
+    <title>Select a Style of Rooms!</title>
 </head>
 <body>
     <div id="mobile-outline">
-    <h1 class="hidden">Welcome to The Couples Resort</h1>
 
     <!-- Main Nav --> 
+    <header class="grid-con" id="main-header">
+        <nav class="main-nav col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
 
-<header id="main-header">
-    <nav id="main-nav" class="col-span-full">
-        <h2 class="hidden">Main Navigation</h2>
-            <div id="burger-con">
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+            <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+
+            <div class="burger-con">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Packages</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="(des)rewards.html">Desktop Rewards</a></li>
                     <li><a href="#">Dining</a></li>
-                    <li><a href="#">Spa Activites</a></li>
-                    <li><a href="#">Reservations</a></li>
+                    <li><a href="spa.html">Spa Activites</a></li>
+                    <li><a href="algonquin.html">Park Activities</a></li>
                 </ul>
             </div>
-    </nav>
-<div id="logo" class="col-span-full">
-<img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
-</div>
-</header>
-        
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
+    </header>        
 <!-- Main Hero -->
-
-<section id="hero">
-    <h2 class="hidden">Book a stay with us</h2>                       
-    <div id="book-now-hero" class="book-now">
-    <p>Book Now</p>
+   <h2 class="hidden">Book a stay with us</h2>                       
+    <div class="book-now-hero book-now col-start-3 col-span-2">
+        <p>Book Now</p>
     </div>
-<section id="hero-heading-box">
-    <h2 class="hero-img-h2">
-    <span>Couples Resort</span><br> 5 Star, Luxury Couples Resort &amp; Spa
-    </h2>
-    </section>
-</section>
-</div>
-
+<main class="rooms-mobile">
 <section id="rooms-detail">
     <h2>All Room Prices Include Daily5 Course Dinner and Breakfast</h2>
-    <div class="drop-down">
+    <div class="drop-down line-separator">
         <h3>All rooms have:</h3>
         <ul>
             <li>Exceeds 5 Diamond/Star Room Standards.</li>
@@ -81,16 +75,16 @@
 </section>
 
 <section id="rooms-chateaus">
-    <img src="" alt="image of chateau">
+    <img src="images/accommodation-chateau.jpeg" alt="image of chateau">
     <h2>Châteaus</h2>
-    <ul>
+    <ul class="line-separator">
         <li>1400 sq feet</li>
         <li>Private Out Door Hot Tubs</li>
         <li>FREE Room Basket of lotions, bath salts, specialty products</li>
         <li>FREE Soapstone products (Bath and Body) in room.</li>
         <li>FREE Illy Espresso / Americano Machine with Caps .</li>
         <li>Private Sauna</li>
-        <li>Steam Generator for the double shower , 4 shower heads & benches</li>
+        <li>Steam Generator for the double shower , 4 shower heads and benches</li>
         <li>Bidet</li>
         <li>Microwave</li>
     </ul>
@@ -98,9 +92,9 @@
 </section>
 
 <section id="rooms-villas">
-    <img src="" alt="image of villa">
+    <img src="images/accommodation-villa.jpg" alt="image of villa">
     <h2>Villas</h2>
-    <ul>
+    <ul class="line-separator">
         <li>1000 sq feet</li>
         <li>Private Out Door Hot Tubs</li>
         <li>FREE Illy Espresso / Americano Machine with Caps .</li>
@@ -109,32 +103,13 @@
         <li>Bidet</li>
         <li>Microwave</li>
     </ul>
-    <button>Book Now</button>
+    <button id="chateauafterpseudo">Book Now</button>
 </section>
 
-<!-- 
-
 <section id="rooms-masters">
-    <img src="" alt="image of masters">
+    <img src="images/accommodation-masters.jpg" alt="image of masters">
     <h2>Masters</h2>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <button>Book Now</button>
-</section> 
-
-Sample copy and paste of li-->
-
-<section id="rooms-masters">
-    <img src="" alt="image of masters">
-    <h2>Masters</h2>
-        <ul>
+        <ul class="line-separator">
             <li>1000 sq feet</li>
             <li>Private Out Door Hot Tubs</li>
             <li>Steam Generator for the double shower which has shower heads and benches</li>
@@ -145,9 +120,9 @@ Sample copy and paste of li-->
 </section>
 
 <section id="rooms-chalet">
-    <img src="" alt="image of chalet">
+    <img src="images/accommodation-chalet.jpg" alt="image of chalet">
     <h2>Chalet</h2>
-        <ul>
+        <ul class="line-separator">
             <li>700 sq feet</li>
             <li>Private Out Door Hot Tubs</li>
             <li>private cabin</li>
@@ -156,9 +131,9 @@ Sample copy and paste of li-->
 </section> 
 
 <section id="rooms-exotics">
-    <img src="" alt="image of exotics">
+    <img src="images/accommodation-exotic.jpg" alt="image of exotics">
     <h2>Exotics</h2>
-        <ul>
+        <ul class="line-separator">
             <li>2 at 1000 sq feet 4 at 600 sq ft</li>
             <li>Private Out Door Hot Tubs</li>
             <li>Microwave</li>
@@ -167,15 +142,15 @@ Sample copy and paste of li-->
 </section> 
 
 <section id="rooms-juniors">
-    <img src="" alt="image of juniors">
+    <img src="images/accommodation-junior.jpg" alt="image of juniors">
     <h2>Juniors</h2>
-        <ul>
+        <ul class="line-separator">
             <li>600 sq feet</li>
             <li>Private Out Door Hot Tubs</li>
         </ul>
         <button>Book Now</button>
 </section> 
-
+</main>
 <footer id="footer-hero">        
         <section id="footer-contact-info">
             <h3>Couples Resort</h3>
@@ -193,5 +168,6 @@ Sample copy and paste of li-->
             <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
         </div>
 </footer>
+</div>
 </body>
 </html>
