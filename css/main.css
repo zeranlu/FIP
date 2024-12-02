@@ -629,12 +629,30 @@ Couples Resort Responsive Build
     background-color: rgb(196, 28, 28);
 }
 
-#chateauafterpseudo::after {
-   content: '👍';
+/*1054 animation*/
+.rooms-details-drop {
+   background-color: #efefef;
+   padding: 10px 0 10px 15px;
+   margin: 0 15px 0 15px;
+   font-size: 20px;
+   cursor: pointer;
 }
+
+input[type="checkbox"]:checked + span::after {
+   content: "No More Available 🙁";
+   animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+   from {opacity: 0;}
+   to {opacity: 1;}
+}
+
+/*1054 animation*/
 
 
 /* ROOMS DESKTOP */
+
 
 #desktop-outline {
    outline: 20px solid #333;
