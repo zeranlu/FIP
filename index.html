@@ -11,19 +11,23 @@
     <title>Welcome to The Couples Resort</title>
 </head>
     <body>
-        <div id="mobile-outline">
         <h1 class="hidden">Welcome to The Couples Resort</h1>
         <!-- Main Nav -->         
-            <header id="main-header">
+            <header class="grid-con" id="main-header">
                 <nav id="main-nav" class="col-span-full">
                     <h2 class="hidden">Main Navigation</h2>
+
+                    <input type="checkbox" id="hamburger">
+                    <label for="hamburger">
+                    <img src="images/burger.svg" alt="hamburger menu icon">
+                    </label>
 
                     <div id="burger-con">
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#">Rooms</a></li>
                             <li><a href="#">Packages</a></li>
-                            <li><a href="#">Dining</a></li>
+                            <li><a class = "selected" href="dining.html">Dining</a></li>
                             <li><a href="#">Spa Activites</a></li>
                             <li><a href="#">Reservations</a></li>
                         </ul>
@@ -34,18 +38,17 @@
                 </div>
             </header>        
         <!-- Main Hero -->
-        <section id="hero">
+        <section id="hero" class="grid-con">
             <h2 class="hidden">Book a stay with us</h2>                       
-            <div id="book-now-hero" class="book-now">
+            <div id="book-now-hero" class="book-now col-start-3 col-span-2">
                 <p>Book Now</p>
             </div>
-            <section id="hero-heading-box">
+            <section id="hero-heading-box" class="col-span-full">
                 <h2 class="hero-img-h2">
                     <span>Couples Resort</span><br> 5 Star, Luxury Couples Resort &amp; Spa
                 </h2>
             </section>
         </section>
-    </div>
            
         <div class="grid-con">
             <section id="hero-summary" class="col-span-full line-separator">
@@ -55,18 +58,18 @@
             </section>
         </div>
             
-        <section id="contact">
+        <section id="contact" class="grid-con">
             <h2 class="hidden">Contact Us</h2>              
-            <div>
+            <div class="col-start-2 col-span-2">
                 <i class="fas fa-mobile-alt"></i>
                 <p id="hero-numbers">
                     Toll Free:+1 866 202-1179<br>
                     Fax:+1 613 637 2615<br>
                     info[at]coupleresort.com
-                    <!-- email obfuscation  -->
+                    <!-- discuss email obfuscation  -->
                 </p>   
             </div>
-            <div>
+            <div class="col-start-2 col-span-2">
                 <i class="fas fa-map-marker-alt"></i>
                 <p id="hero-address">
                     1198 Osprey Rd, (End of)<br>
@@ -77,27 +80,27 @@
         </section>
          <!-- Why Choose Us -->
         <div id="why-choose-us">  
-            <div>
-                <nav id="why-choose-us-nav">
+            <div class="grid-con">
+                <nav id="why-choose-us-nav" class="col-span-full">
                     <h2 class="hidden">Nav for why choose us</h2>
                     <ul>
-                        <li><a class="selected" href="#">Why Choose Couples Resort</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">Why Choose Couples Resort</a></li>
+                        <li><a class="selected" href="#">About</a></li>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             
-            <section id="why-choose-us-hero-con">             
-                <div id="why-choose-us-heading-box">
+            <section id="why-choose-us-hero-con" class="grid-con">             
+                <div id="why-choose-us-heading-box" class="col-span-full">
                     <h3 class="hero-img-h3"><span>Couples Resort</span><br> Why Choose Us...</h3>
                 </div> 
             </section>
            
             <div class="grid-con">
-                <div></div>
-                <div class="why-choose-us-image-con" id="hot-tub">
+                <div class="col-span-full line-separator"></div>
+                <div class="col-span-full why-choose-us-image-con" id="hot-tub">
                     <div class="why-choose-us-image">
                         <img src="images/spa.jpg" alt="couple in hot tub">
                     </div>
@@ -128,11 +131,10 @@
                 </div>           
             </div>
             
-            <section class="grid-con">
-                <h2 class="hidden">Soyers Lake</h2>
+            <div class="grid-con">
                 <div id="about-us-text" class="col-span-full line-separator">
                     <article id="about-us-text-column1">
-                        <h2 class="hidden">Lake Information</h2>
+                        <h2 class="hidden">Soyers Lake</h2>
                     <p>Ontario's Couples Resort is on the shores of Haliburton's Soyers Lake, which is part of the Kashagawigamog Lake system. The village Minden, Ontario is a short 15-minute walk away. We are surrounded with breathtaking wilderness, pure fresh air, secluded forests, pristine waters, an abundance of sunny days and a blanket of stars at night.</p>
 
                     <p>A 5-STAR Luxury Resort for 46 couples. Endless Nature and Sports Activities, together with Pampering Spa Treatments and followed by Decadent Gourmet dining by our International Chefs.</p>
@@ -146,10 +148,12 @@
                     </article>
                 
                     <p>Your Hosts, <span class="cr-red">The LeBlanc Family &amp; Team</span><br>The Couples Resort, Ontario - Canada </p>
-                </div>          
-        </section>
+                </div>
+            </div>
+            
+        </div>
 
-        <section id="faq-con" class="grid-con">
+        <div id="faq-con" class="grid-con">
                 <div class="col-span-full">
                     <h2><span>Couples Resort</span><br>FAQ</h2>
                 </div>
@@ -187,7 +191,7 @@
                 </section>
 
       
-            </section>
+        </div>
 
         
         <section id="contact-hero-con" class="grid-con">
@@ -212,8 +216,10 @@
                     E-mail: info[at]coupleresort.com </p>         
             </div>
             <div id="contact-hero-form" class="col-span-full">
-                <form action="email.php" method="POST" enctype="text/plain">
-                    <input name="fullName" type="text" placeholder="First & Last Name">
+
+
+                <form action="#" method="post" enctype="text/plain">
+                    <input name="fullName" type="text" required placeholder="First & Last Name">
                     <input name="contactInfo" type="text" required placeholder="Phone number or Email">
                     <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
                     <input name="submit" type="submit" value="Send">
@@ -221,8 +227,8 @@
             </div>
         </section>
             
-        <footer id="footer-hero">        
-                <section id="footer-contact-info">
+        <footer id="footer-hero" class="grid-con">        
+                <section id="footer-contact-info" class="col-span-full">
                     <h3>Couples Resort</h3>
                     <p>1198 Osprey Rd, (End of)<br>
                         Minden, Soyers Lake, ON, <br>
@@ -234,11 +240,11 @@
                         E-mail: info@coupleresort.com
                     </p>
                 </section>
-                <div id="footer-privacy" class="line-separator">
+                <div id="footer-privacy" class="col-span-full line-separator">
                     <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
                 </div>
         </footer>
-        </div>
+
         <script src="js/main.js"></script>   
     </body>
 </html>
