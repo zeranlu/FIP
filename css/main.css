@@ -49,7 +49,7 @@ Couples Resort Responsive Build
  
  /* 2. ---Main Nav--- */
  
-  #main-nav label img {
+.main-nav label img {
     width: 20px;
     height: 20px;
     margin-top: 15px;
@@ -60,47 +60,45 @@ Couples Resort Responsive Build
  
  
  
- #main-nav input, #burger-con {
+ .main-nav input, .burger-con {
     display: none;
  }
  
  
  /*   ~ sibling selector   */
  
- #main-nav input:checked ~ #burger-con {
+ .main-nav input:checked ~ .burger-con {
     display: block;
  }
  
- #main-nav input:checked ~ label img {
+ .main-nav input:checked ~ label img {
     transform: rotate(90deg);
  }
  
- #main-nav ul {
+ .main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
  }
  
- #main-nav ul li a {
+ .main-nav ul li a {
     display: block;
     padding: 10px 0 10px 0;
     text-align: center;
     color: #626262;
  }
  
- #main-nav ul li {
+ .main-nav ul li {
     border-bottom: 1px solid #efefef;
  }
  
- #main-nav ul li:first-child {
+ .main-nav ul li:first-child {
     border-top: 1px solid #efefef;
  }
  
- #main-nav ul li:last-child {
+ .main-nav ul li:last-child {
     margin-bottom: 10px;
  }
- 
- 
  
  #logo {
     margin-bottom: 20px;
@@ -114,7 +112,7 @@ Couples Resort Responsive Build
     background: url(../images/hero-main.jpg) no-repeat;
     height: 200px;
  }
- 
+
  .book-now {
     background-color: #9a2018;
     color: #fff;
@@ -132,11 +130,11 @@ Couples Resort Responsive Build
     background-color: rgb(196, 28, 28);
  }
  
- #book-now-hero {
+ .book-now-hero {
     height: 67px;
  }
  
- #hero-heading-box {
+ .hero-heading-box {
     align-self: end;
  }
  
@@ -157,7 +155,7 @@ Couples Resort Responsive Build
     padding-top: 20px;
  }
  
- #hero-summary p {
+ .hero-summary p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
@@ -434,3 +432,309 @@ Couples Resort Responsive Build
     line-height: 18px;
     font-size: 11px;
  }
+
+/* GENERAL CSS */
+
+
+/* THIS IS ALGONQUIN PAGE CSS */
+
+
+#algonquin-mobile-outline {
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ }
+
+#algonquin-about {
+    margin-bottom: 50px;
+}
+
+#algonquin-about h2 {
+    padding: 10px 0 10px 0;
+    display: grid;
+} 
+
+#algonquin-mobile-outline p {
+    margin-top: 20px;
+}
+
+#algonquin-about img {
+    width: 412px;
+    height: 200px;
+}
+
+#algonquin-park-activities {
+    margin-bottom: 50px;
+}
+
+#algonquin-park-activities h2 {
+    padding: 10px 0 10px 0;
+    display: grid;
+    justify-content: center;
+}
+
+#algonquin-park-activities img {
+    width: 412px;
+    height: 200px;
+}
+
+#algonquin-park-activities ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: #CF6666 solid 1px;
+}
+
+
+#algonquin-fishing img {
+    width: 412px;
+    height: 200px;
+}
+
+#algonquin-fishing h2 {
+    padding: 10px 0 10px 0;
+    display: grid;
+    justify-content: center;
+}
+
+#algonquin-fishing {
+    margin-bottom: 50px;
+}
+
+#algonquin-galeairy img {
+    width: 412px;
+    height: 200px;
+}
+
+#algonquin-galeairy h2 { 
+    padding: 10px 0 10px 0;
+    display: grid;
+    justify-content: center;}
+
+#algonquin-galeairy {
+    margin-bottom: 50px;
+}
+
+#algonquin-about h2 {
+    padding: 50px 0 10px 0;
+    display: grid;
+    justify-content: center;
+}
+
+/* THIS IS SPA */
+
+.spa-mobile img{
+    width: 412px;
+    height: 200px;
+}
+
+.spa-mobile section {
+    margin-bottom: 50px;
+}
+
+.spa-mobile h2 {
+    display: grid;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+.spa-mobile h5 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding: 0 15px 0 15px;
+}
+
+.spa-mobile p {
+    margin: 20px 0 20px 0;
+    padding: 0 15px 0 15px;
+}
+
+.spa-mobile ul li {
+    list-style: none;
+    border-bottom: #CF6666 solid 1px;
+    margin-bottom: 10px;
+}
+
+.spa-mobile h3 {
+    background-color: #efefef;
+    padding: 10px 0 10px 15px;
+    margin: 0 15px 0 15px;
+}
+
+#spa-massage {
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+/* ROOMS */
+
+
+.rooms-mobile img{
+    width: 412px;
+    height: 200px;
+}
+
+.rooms-mobile section {
+    margin-bottom: 50px;
+}
+
+.rooms-mobile h2 {
+    display: grid;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+.rooms-mobile h5 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding: 0 15px 0 15px;
+}
+
+.rooms-mobile p {
+    margin: 20px 0 20px 0;
+    padding: 0 15px 0 15px;
+}
+
+.rooms-mobile ul li {
+    list-style: none;
+    border-bottom: #CF6666 solid 1px;
+    margin-bottom: 10px;
+}
+
+.rooms-mobile h3 {
+    background-color: #efefef;
+    padding: 10px 0 10px 15px;
+    margin: 0 15px 0 15px;
+}
+
+.rooms-mobile button {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.rooms-mobile button {
+    margin-left: 145px;
+}
+
+.rooms-mobile button:hover {
+    background-color: rgb(196, 28, 28);
+}
+
+#chateauafterpseudo::after {
+   content: '👍';
+}
+
+
+/* ROOMS DESKTOP */
+
+#desktop-outline {
+   outline: 20px solid #333;
+   max-width: 1440px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
+
+.desktop-main img {
+   height: 584px;
+   width: 1440px;
+}
+
+#desktop-outline header {
+   padding-top: 20px;
+   padding-left: 10px;
+   display: flex;
+}
+
+.desktop-logo {
+   width: 400px;
+   float: left;
+}
+
+.desktop-nav ul li {
+   list-style: none;
+   display: inline-block;
+   float: right;
+   margin-left: 28.3px;
+   margin-top: 10px;
+}
+
+.desktop-nav ul li a {
+   text-decoration: none;
+   color: #333;
+   font-size: 16px;
+}
+
+#desktop-book-now {
+   background-color: #9a2018;
+    color: #fff;
+    font-size: 32px;
+    transition: background-color 500ms linear;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+    padding: 20px 30px 20px 30px;
+    margin-left: 117.5px;
+    border: #9a2018 solid 2px;
+}
+
+#desktop-book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+.desktop-main h2 {
+   font-size: 40px;
+   padding: 50px;
+   background-color: white;
+   margin: 0 50px 0 50px;
+}
+
+.desktop-main p {
+   margin: 30px;
+   font-size: 24px;
+}
+
+.desktop-main h3 {
+   background-color: #efefef;
+   padding: 32px;
+}
+
+.desktop-main ul  {
+   margin: 50px;
+   font-size: 24px;
+   list-style: none;
+}
+
+.desktop-main ul li {
+   margin-bottom: 20px;
+}
+
+#footer-desktop-background {
+   background-color: #333;
+}
+
+.desktop-footer h3 {
+   color:#707070;
+   padding-left: 50px;
+   padding-top: 50px;
+}
+
+.desktop-footer p {
+   color:#707070;
+   padding-left: 50px;
+   padding-top: 25px;
+}
+
+#lastparagraph {
+   padding-bottom: 50px;
+}

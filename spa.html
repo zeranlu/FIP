@@ -8,60 +8,57 @@
     <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
     <link href="css/grid.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>Welcome to The Couples Resort</title>
+    <title>Spa Activities</title>
 </head>
 <body>
     <div id="mobile-outline">
     <h1 class="hidden">Welcome to The Couples Resort</h1>
 
     <!-- Main Nav --> 
+    <header class="grid-con" id="main-header">
+        <nav class="main-nav col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
 
-<header id="main-header">
-    <nav id="main-nav" class="col-span-full">
-        <h2 class="hidden">Main Navigation</h2>
-            <div id="burger-con">
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+            <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+
+            <div class="burger-con">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Dining</a></li>
-                    <li><a href="#">Spa Activites</a></li>
-                    <li><a href="#">Reservations</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="rooms.html">Rooms</a></li>
+                  <li><a href="(des)rewards.html">Desktop Rewards</a></li>
+                  <li><a href="#">Dining</a></li>
+                  <li><a href="spa.html">Spa Activites</a></li>
+                  <li><a href="algonquin.html">Park Activities</a></li>
                 </ul>
             </div>
-    </nav>
-<div id="logo" class="col-span-full">
-<img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
-</div>
-</header>
-        
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
+    </header>        
 <!-- Main Hero -->
-
-<section id="hero">
-    <h2 class="hidden">Book a stay with us</h2>                       
-    <div id="book-now-hero" class="book-now">
-    <p>Book Now</p>
+   <h2 class="hidden">Book a stay with us</h2>                       
+    <div class="book-now-hero book-now col-start-3 col-span-2">
+        <p>Book Now</p>
     </div>
-<section id="hero-heading-box">
-    <h2 class="hero-img-h2">
-    <span>Couples Resort</span><br> 5 Star, Luxury Couples Resort &amp; Spa
-    </h2>
-    </section>
-</section>
-</div>
-
+<main class="spa-mobile">
 <section id="spa-massage">
     <h2>Registered Massage Therapy</h2>
-    <p><span>Registered Massage Therapy
-        In Spa Only: 30 min $96 * / 60 min $186 * / 90 min $276 *</span>
-        Touching is healing; from a mother’s touch which comforts and soothes her baby to the triumphant athlete patted on the back by fellow athletes. Based on the same principle as human touch, massage is the oldest method of promoting good health, suppleness and strength. Today, the role of massage therapy is recognized by the general public and other health care professionals as being an effective health care alternative. Due to public perception and desire, massage therapy has grown into a more prominent position. It is a viable and respected profession promoting good health not only for your physical but emotional well being also. Massage Therapy is the kneading, manipulation or application of methodical pressure and friction of the body. Whether it is for treatment of injury, stress or for relaxation, the skilled use of massage through touch is used to maintain and enhance the health and well being of the entire body. Experience the benefits massage can offer you.</p>
+    <p class="line-separator">Registered Massage Therapy
+        In Spa Only: 30 min $96 * / 60 min $186 * / 90 min $276 *</p>
+
+        <p>Touching is healing; from a mother’s touch which comforts and soothes her baby to the triumphant athlete patted on the back by fellow athletes. Based on the same principle as human touch, massage is the oldest method of promoting good health, suppleness and strength. Today, the role of massage therapy is recognized by the general public and other health care professionals as being an effective health care alternative.</p>
+             <p>Due to public perception and desire, massage therapy has grown into a more prominent position. It is a viable and respected profession promoting good health not only for your physical but emotional well being also. Massage Therapy is the kneading, manipulation or application of methodical pressure and friction of the body. Whether it is for treatment of injury, stress or for relaxation, the skilled use of massage through touch is used to maintain and enhance the health and well being of the entire body. Experience the benefits massage can offer you.</p>
 </section>
 
 <section id="spa-hot-stones">
-    <img src="" alt="image of massage activities">
+    <img src="images/spa-hotstone.jpg" alt="image of massage activities">
     <h2>Hot Stones, Body Molding, Indian Head Massage</h2>
     
-    <div id="relaxing-body-molding">
+    <div id="relaxing-body-molding" class="line-separator">
         <h3>Relaxing Body Molding Treatment</h3>
           <ul>
             <li>Available Spa: 60min $132.*</li>
@@ -88,9 +85,9 @@
 </section>
 
 <section id="spa-handfoot">
-    <img src="" alt="Image of hand and foot treatments">
+    <img src="images/spa-handfoot.jpg" alt="Image of hand and foot treatments">
     <h2>Hand/Foot Treatments</h2>
-    <p id="handfoot-quote"></p>
+    <p  class="line-separator" id="handfoot-quote"></p>
     <ul>
         <li>Spa Manicure with Polish (60 minutes) $ 84.00</li>
         <li>Spa Manicure with no Polish (45 minutes) - $78.00</li>
@@ -103,10 +100,10 @@
 </section>
 
 <section id="spa-scrubs">
-    <img src="" alt="image of spa scrubs">
+    <img src="images/spa-scrubswrapsfacial.jpg" alt="image of spa scrubs">
     <h2>Scrubs, Wraps and Facials</h2>
     
-    <div id="scrubs-wraps-facials">
+    <div  class="line-separator"  id="scrubs-wraps-facials">
         <h3>Scrub, Wrap and Facial in the Spa</h3>
           <ul>
             <li>Available Spa: 1 hour 45min $270.*</li>
@@ -132,17 +129,17 @@
 </section>
 
 <section id="spa-waxing">
-    <img src="" alt="image of waxing">
+    <img src="images/spa-waxing.jpg" alt="image of waxing">
     <h2>Waxing Services</h2>
-    <p>Space available on a walk-in basis only. - See office for pricing.</p>
+    <p class="line-separator">Space available on a walk-in basis only. - See office for pricing.</p>
     <p>Eye Brows ~ Upper Lip ~ Chin ~ Face (includes eyebrows, chin and upper lip)~ Arms ~ Half Leg ~ Full Leg ~ (Womens) Bikini ~ Under Arms ~ Men Chest ~ Men Back</p>
 </section>
 
 <section id="spa-features">
-    <img src="" alt="image of spa features">
+    <img src="images/spa-activities.jpg" alt="image of spa features">
     <h2>Algonquin Spa Features</h2>
    
-    <p>Come and relax at Ontario finest destination resort spas. Offering many spa packages for couples, honeymooners and anniversaries.</p>
+    <p class="line-separator">Come and relax at Ontario finest destination resort spas. Offering many spa packages for couples, honeymooners and anniversaries.</p>
 
     <div id="divine">
         <h3>Divine</h3>
@@ -178,52 +175,51 @@
 </section>
 
 <section id="spa-policies">
-    <img src="" alt="image of spa policies">
+    <img src="images/spa-policy.jpg" alt="image of spa policies">
     <h2>Spa Policies and Information</h2>
-    <p>We have 6 Spa Treatment Rooms.
+    <p class="line-separator">We have 6 Spa Treatment Rooms.</p>
 
-        When you arrive please have on loose comfortable clothing if you are having Facials. Body Molding and Body wraps you will just have on your robe and an undergarment, and can change in the Treatment Room.
+    <p>When you arrive please have on loose comfortable clothing if you are having Facials. Body Molding and Body wraps you will just have on your robe and an undergarment, and can change in the Treatment Room.</p>
         
-        Appointments can be held between 9:00 am to 9:00 pm. Appointments can be made for up to 2 people at a time, depending on accommodation size and availability of the Spa Practitioners.
+    <p>Appointments can be held between 9:00 am to 9:00 pm. Appointments can be made for up to 2 people at a time, depending on accommodation size and availability of the Spa Practitioners.</p>
         
-        100 Percent of the full treatment price will be charged to your account for cancellations and no-shows made less than twelve (12) hours prior to the appointment time.
+    <p>100 Percent of the full treatment price will be charged to your account for cancellations and no-shows made less than twelve (12) hours prior to the appointment time.</p>
         
-        For Success in an Algonquin Spa Experience in Rejuvenation please pre-book your appointment. Please note that we cannot guarantee that even with a pre-booking that you will receive your appointment due to illness or extenuating circumstances. However, we will inform you as soon as we are aware and work diligently to work with you to find a possible alternative to your booking.
+    <p>For Success in an Algonquin Spa Experience in Rejuvenation please pre-book your appointment. Please note that we cannot guarantee that even with a pre-booking that you will receive your appointment due to illness or extenuating circumstances. However, we will inform you as soon as we are aware and work diligently to work with you to find a possible alternative to your booking.</p>
         
-        *Treatments will automatically be charged to your account, add 13% HST. Please observe a NO EXTRA TIPPING policy, as we wish that you would rather take another appointment, do another activity, have another wine or stay another night…..any of these will help all, far more than a single extra tip.</p>
+    <p>*Treatments will automatically be charged to your account, add 13% HST. Please observe a NO EXTRA TIPPING policy, as we wish that you would rather take another appointment, do another activity, have another wine or stay another night…..any of these will help all, far more than a single extra tip.</p>
 </section>
 
 <section id="spa-unforseen">
-    <img src="" alt="image of spa policies">
+    <img src="images/spa-unforseen.jpg" alt="image of spa policies">
     <h2>Unforeseen Circumstances</h2>
-    <p>It is very rare that one of our Spa Professionals gets sick or has a family emergency and we understand it is extremely disappointing to not have the treatment you requested. Staff will make every effort in finding an alternative time in the day or during your stay with another therapist, sometimes involving a slightly different Treatment. We appreciate our guests for being so patient during these unforeseen circumstances. Currently if there is a cancellation and you cannot be accommodated, there will be no Spa charge to your room.
-        A Free Voucher for a 1 hour (Not RMT) Spa Treatment will now be provided for your next getaway at the Couples Resort.
+    <p class="line-separator">It is very rare that one of our Spa Professionals gets sick or has a family emergency and we understand it is extremely disappointing to not have the treatment you requested. Staff will make every effort in finding an alternative time in the day or during your stay with another therapist, sometimes involving a slightly different Treatment. We appreciate our guests for being so patient during these unforeseen circumstances. Currently if there is a cancellation and you cannot be accommodated, there will be no Spa charge to your room.</p>
+        <p>A Free Voucher for a 1 hour (Not RMT) Spa Treatment will now be provided for your next getaway at the Couples Resort.</p>
         
-        The Policy change allows us not only to make sure there is no out of pocket expense (the cost of the treatment) but that we will also compensate you beyond what the Couples Resort could not provide you.Thank You & Enjoy in Our Pleasure,
+        <p>The Policy change allows us not only to make sure there is no out of pocket expense (the cost of the treatment) but that we will also compensate you beyond what the Couples Resort could not provide you.Thank You and Enjoy in Our Pleasure,</p>
         
-        John Sorensen, President.</p>
+        <p>John Sorensen, President.</p>
 </section>
 
 <section id="spa-ontario">
-    <img src="" alt="image of ontario">
+    <img src="images/spa-algonquin.jpg" alt="image of algonquin park">
     <h2>Ontario Spa</h2>
-    <img src="" alt="image of ontario 2">
-    <h5>A Natural & Organic Destination Spa - Feature Story North American Inns</h5>
-    <p>Before your treatment we invite you to begin your relaxing spa experience in the comfort of your own accommodations with the use of any wet treatment of sauna, steam bath, hot-tub or Whirlpool Bath Tub, depending on your accommodation. 
+    <h5 class="line-separator">A Natural and Organic Destination Spa - Feature Story North American Inns</h5>
+    <p>Before your treatment we invite you to begin your relaxing spa experience in the comfort of your own accommodations with the use of any wet treatment of sauna, steam bath, hot-tub or Whirlpool Bath Tub, depending on your accommodation. </p>
 
-        AWARDED ONE OF NORTH AMERICA's TOP 100 SPAS 
-( #61)
+        <p>AWARDED ONE OF NORTH AMERICA's TOP 100 SPAS 
+( #61)</p>
 
-As part of the Algonquin Spa you have access to our fitness / sauna room. It is a beautiful cedar sunroom with a fantastic view over the 3 season Swimming Pool and Galeairy Lake. There are free-weights, benches, a bike machine, a concept 2 rowing machine and a tread mill. The sunroom also has all the amenities with washrooms and showers, TV and VCR for work out videos, mats, and a drink cooler. After your workout or at the end of your day, revive your soul in the sauna. The heat will soothe your muscles and purify your skin . . . Perfect! From here you have easy access to the outdoor heated salt-water pool. Relax and melt away, or do a few laps, it is all yours.</p>
+<p>As part of the Algonquin Spa you have access to our fitness / sauna room. It is a beautiful cedar sunroom with a fantastic view over the 3 season Swimming Pool and Galeairy Lake. There are free-weights, benches, a bike machine, a concept 2 rowing machine and a tread mill. The sunroom also has all the amenities with washrooms and showers, TV and VCR for work out videos, mats, and a drink cooler. After your workout or at the end of your day, revive your soul in the sauna. The heat will soothe your muscles and purify your skin . . . Perfect! From here you have easy access to the outdoor heated salt-water pool. Relax and melt away, or do a few laps, it is all yours.</p>
 </section>
 
-<section id="spa-products">
-    <img src="" alt="image of product">
+<section id="spa-products"  class="line-separator">
     <h2>Spa Products</h2>
-    <img src="" alt="image of product 2">
+    <img src="images/spa-product2.png" alt="image of spa product stamp">
     <h5>WORLD RENOWNED EMINENCE HANDMADE ORGANIC SKIN CARE</h5>
     <p>We are proud to offer the Eminence Organic Skin Care line offers a truly exquisite experience with products that are so natural that you can see the fresh fruit pulps, seeds, and smell the real herbs. The philosophy is simple and natural, and it fits with the modern need of finding a natural skin care solution.</p>
 </section>
+</main>
 
 <footer id="footer-hero">        
         <section id="footer-contact-info">
@@ -242,5 +238,6 @@ As part of the Algonquin Spa you have access to our fitness / sauna room. It is 
             <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
         </div>
 </footer>
+</div>
 </body>
 </html>
